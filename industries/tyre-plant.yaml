@@ -113,14 +113,8 @@ layout:
     - 1
     - 2
   - - 2
-    - 1
+    - -1
     - 0
-  - - 3
-    - 4
-    - 6
-  - - 6
-    - 5
-    - 7
 - - - 1
     - 2
     - 1
@@ -259,6 +253,17 @@ tiles:
     drawType: recolour
     sprite:
       filename: industries/tyre-plant/15.png
+      left: -31
+      top: 0
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      id: 3924
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      id: 3924
       left: -31
       top: 0
 type: secondary
